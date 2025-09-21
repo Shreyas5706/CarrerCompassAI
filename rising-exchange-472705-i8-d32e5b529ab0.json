@@ -1,0 +1,20 @@
+{
+  "type": "service_account",
+  "project_id": "rising-exchange-472705-i8",
+  "private_key_id": "ca694c05f3c859ba2fc766c25104ada03a6b7a5d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCu9RoswMny1f/S\nR6Q0Iu3v6RTTLy2VskWbYjACAyE/2wj0jzntfCYla+ZZ2+b4d7ZedCQOVvoRG9dn\n3fOCWM41Min5FYs6S7/+72CNalIyIO6BMUOkPQsT53MAmtb/LCZITlmcAnUwBIWL\n6gyzIAfti7WkpgUaFAHCGF60T68j9Hfh4xmLgBj0uU8ocwVAnvgjXo4Ue7Kw6o26\nK1eiRxMgZ032MS8o3Di+MZYCtIuDJ9EHHQ4F49OV4q/qwQaXmddYk0alyREV266K\n6gen/fRCYf/qr2vz012lWwave5lr7ux122BszLvS50wXXr4fPXd2z+JS8MZJDz8E\ndBoLWWOjAgMBAAECggEAVsz2k/6AEvD2D1sIze8Ick8GzHGrIYpFO35+x/jKjbY7\nXq4SdM7z0/wQ2EMf9+TYv0rKuqyPO16/Q2JcFi69+6lsJo54OU9srWwQ0IhPyFwL\nSGBrKTg530GkjkfD4+yA/72TerHDdzO/F/fiHhqFpGZ8k3fkrxf++U+C6N1hzKmC\nHj53PbsmBcDvxOLNI7ew0of5hefgmDfbolOrXdSvcUxkLFfD4l4zWITt1hIIcEac\nUbaJpwH0oMXFbJKVdvxH6ByFGB0uvqBsxASrPzx4/V1B4eZcJulIHm1sQJemI2N4\nR5i89gF9VkRaJF1gZaX8CGe8SivQQ4AWoO7Oiht9TQKBgQDkAEajnGHo0mXIzmj1\nA/EE0W5SG9B2cn4qI5P8CjTAf4yEsueZ/7Vunaw6NigygbUpuVZgTJU5yzSddXQi\nBJSIjGKEx/IaO8CdH9x/O7nJN4Kxm8SGHWJaeXUGnfxkrimrFTr7///8DeMn+sFO\nzbrmnVqYAZ3oXDmUBI5qcEKoVwKBgQDEcUfTWLmPVhETtVjBB8aD48+JGqrEULe3\nEItGRtpeQ+8XiNVwsKf7j/yQK0QyF8PAuntAnSCTXoEI3p93B+9cjKQLx/USw8R9\nKo7vKvBZl2MY0q1b26Jt+wMZVoMV9r3eaX7sBdv6Pk76gcjCmWUrRH++od4s87eY\nLpZIZ+A/lQKBgQCNfx5Xq1WYB/rjBDZe2HNbah3tFxXobGWgATR11l+ml4G9WMoi\n6G7Ql0mrVrDbp2Om4T6ZxO1XUKT2k03fTrhfhcAeZ3f4j9yZpoxQ6eAC4FBbqS/t\ni47eV0IpOSLJ2MxDQIm6msVix7uRtC0DmunC9SSj8VzuN04Ebk9z/vdfQQKBgD2t\nl7CrHe/8RPZcLRbGezTz9TiGD/H9qgEnh6M0IeIREGPiSanNPaEFr3YQr6POxF6h\n7or2CsFanccMJyN3cVcsrWEpkjAnGW13TFOZtsdaefnURCwgRNqlQm7VM+lUhH7t\nvrUajdv/bkrHLyKyiQpRwo43Qov4pb95eSQYwVcVAoGAbNBosNeZxvoDSzq/5Nkg\nXHIVcEi4XUv/4prjfT1cgI370mItuvU74CFicBhPtUNEJRfGcUUQwK93ZJOW5R7O\nmx4yo4ZoF3QYKVjcu1McdEnh6fZjJ+ZnTAlUyi8DVZ+NG6YP9hw6UNgTS/87a7Yz\nYHXiGkL5snzko5vUJiwGKjs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "career-compass-ai@rising-exchange-472705-i8.iam.gserviceaccount.com",
+  "client_id": "115590965669332870904",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/career-compass-ai%40rising-exchange-472705-i8.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com",
+  apiKey: "AIzaSyDM4xSZ-YGpiANa7X0CMwuuGgKAJnlE4N8",
+  authDomain: "careercompass-d4086.firebaseapp.com",
+  projectId: "careercompass-d4086",
+  storageBucket: "careercompass-d4086.firebasestorage.app",
+  messagingSenderId: "135849058474",
+  appId: "1:135849058474:web:7e89301b7f7811e461b0d3",
+  measurementId: "G-MSH3FFFJLL"
+};

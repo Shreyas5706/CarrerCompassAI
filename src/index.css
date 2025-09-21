@@ -1,0 +1,158 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 223 47% 11%;
+    --foreground: 0 0% 98%;
+
+    --card: 224 47% 15%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 224 47% 15%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 217 91% 60%;
+    --primary-foreground: 0 0% 98%;
+    --primary-glow: 217 91% 70%;
+
+    --secondary: 224 47% 20%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 224 47% 20%;
+    --muted-foreground: 215 20% 65%;
+
+    --accent: 217 91% 60%;
+    --accent-foreground: 0 0% 98%;
+
+    --destructive: 0 62% 50%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 224 47% 25%;
+    --input: 224 47% 25%;
+    --ring: 217 91% 60%;
+
+    --radius: 0.75rem;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-hover: linear-gradient(135deg, hsl(var(--primary-glow)), hsl(var(--primary)));
+    
+    /* Shadows */
+    --shadow-elegant: 0 10px 30px -10px hsl(var(--primary) / 0.3);
+    --shadow-glow: 0 0 40px hsl(var(--primary-glow) / 0.4);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-body;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-semibold;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-primary text-white font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105;
+    background: var(--gradient-primary);
+    box-shadow: var(--shadow-elegant);
+  }
+  
+  .btn-primary:hover {
+    background: var(--gradient-hover);
+    transform: scale(1.05) translateY(-2px);
+    box-shadow: var(--shadow-glow);
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-secondary text-ai-blue-900 font-semibold px-6 py-3 rounded-lg transition-all duration-300 hover:scale-105 hover:shadow-lg transform hover:-translate-y-0.5;
+  }
+  
+  .card-gradient {
+    @apply bg-gradient-card border border-ai-blue-200 rounded-xl shadow-sm hover:shadow-md transition-all duration-200;
+  }
+  
+  .text-gradient {
+    @apply bg-gradient-primary bg-clip-text text-transparent;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border border-ai-blue-200 rounded-lg focus:ring-2 focus:ring-ai-blue-500 focus:border-transparent transition-all duration-200 bg-white;
+  }
+  
+  .progress-bar {
+    @apply bg-ai-blue-100 rounded-full overflow-hidden;
+  }
+  
+  .progress-fill {
+    @apply bg-gradient-primary h-full transition-all duration-500 ease-out;
+  }
+
+  /* Feature card hover effects */
+  .feature-card {
+    @apply transition-all duration-300 hover:scale-105 cursor-pointer;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: var(--shadow-elegant);
+  }
+
+  /* Navbar link hover effects */
+  .nav-link {
+    @apply relative transition-all duration-300 hover:text-primary;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -4px;
+    left: 50%;
+    background: hsl(var(--primary));
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Animated background grid */
+  .animated-grid {
+    background-image: 
+      linear-gradient(rgba(255, 255, 255, 0.1) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.1) 1px, transparent 1px);
+    background-size: 50px 50px;
+    animation: grid-move 20s linear infinite;
+  }
+  
+  @keyframes grid-move {
+    0% { background-position: 0 0; }
+    100% { background-position: 50px 50px; }
+  }
+
+  /* Icon animations - DISABLED for static icons */
+  .icon-float {
+    transform: translateY(0px); /* Static positioning */
+  }
+  
+  @keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+  }
+}
